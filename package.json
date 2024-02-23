@@ -9,17 +9,15 @@
   "categories": [
     "Other"
   ],
-  "activationEvents": [],
+  "activationEvents": [
+    "*"
+  ],
   "main": "./extension.js",
   "contributes": {
     "commands": [
       {
         "command": "todo-made-simple.addCheckItem",
-        "title": "Add TODO Item"
-      },
-      {
-        "command": "todo-made-simple.checkTheBox",
-        "title": "Check TODO Item"
+        "title": "TODO: Add TODO Item"
       }
     ]
   },
