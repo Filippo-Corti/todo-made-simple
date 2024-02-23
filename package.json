@@ -1,0 +1,40 @@
+{
+  "name": "todo-made-simple",
+  "displayName": "TODO Made Simple",
+  "description": "TODO Made Simple makes adding TODO Lists easy to any file",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "todo-made-simple.addCheckItem",
+        "title": "Add TODO Item"
+      },
+      {
+        "command": "todo-made-simple.checkTheBox",
+        "title": "Check TODO Item"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.86.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.6",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
