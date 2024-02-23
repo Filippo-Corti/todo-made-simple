@@ -12,11 +12,11 @@ To create a new checkbox you can either
 >
 > TODO LISTS:
 >
-> ![TODO Lists](/images/Example1.png)
+> ![TODO Lists](https://github.com/Filippo-Corti/todo-made-simple/raw/master/images/Example1.png)
 >
 > TODO Comments:
 >
-> ![TODO Comments](/images/Example2.png)
+> ![TODO Comments](https://github.com/Filippo-Corti/todo-made-simple/raw/master/images/Example2.png)
 
 
 ## Release Notes

@@ -2,13 +2,21 @@
   "name": "todo-made-simple",
   "displayName": "TODO Made Simple",
   "description": "TODO Made Simple makes adding TODO Lists easy to any file",
-  "version": "0.0.1",
+  "version": "1.0.0",
+	"publisher": "Filippo Corti",
   "engines": {
     "vscode": "^1.86.0"
   },
   "categories": [
     "Other"
   ],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Filippo-Corti/todo-made-simple"
+	},
+	"author": {
+		"name": "Filippo Corti"
+	},
   "activationEvents": [
     "*"
   ],
@@ -34,5 +42,6 @@
     "typescript": "^5.3.3",
     "@vscode/test-cli": "^0.0.6",
     "@vscode/test-electron": "^2.3.9"
-  }
+  },
+  "icon": "images/icon.png"
 }
